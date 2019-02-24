@@ -1,0 +1,10 @@
+@()(implicit webJarsUtil: org.webjars.play.WebJarsUtil)
+
+@main("Babylon template - loaders - BVHLoader") {
+  <h1>Affichage de fichiers .bvh sous Play!</h1>
+}
+
+@* 
+@webJarsUtil.locate("bootstrap.min.css").css()
+@webJarsUtil.locate("bootstrap.min.js").script() 
+*@
